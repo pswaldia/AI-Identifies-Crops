@@ -22,4 +22,10 @@ Note : The data used for training the model has not been open sourced yet.For da
 ![img](https://imgur.com/KbHPOTu.png)
 
 ## Database
+
+### Storing Image URL
 ![img](https://imgur.com/ynKGkIQ.png)
+
+
+### Storing Image as binary object
+![img](https://imgur.com/AKJZ8Ic.png)
