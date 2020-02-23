@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Upload with preview</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename="bootstrap.min.css") }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename="bootstrap.min.js")}}">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="{{ url_for('static',filename="style.css") }}">
+
+
+</head>
+
+<body>
+  <!-- <div style="padding-left: 700px"> -->
+  <div class="card" style="width: 20rem;">
+    <img class="card-img-top" src = {{ image_url }} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><u>Predicted Label</u>:<small style="font-size: 14px"> {{ label }} ({{ score }}) </small></h5>
+      <p class="card-text"><u>Description</u>:<small style="font-size: 14px"> {{ info }}</small> <br><br>
+        <u>Rainfall Requirement</u>:<small style="font-size: 14px"> {{ rainfall }} </small> <br><br>
+        <u>Temperature Requirement</u>:<small style="font-size: 14px"> {{ temp }} </small> <br><br>
+        <u>Soil</u>:<small style="font-size: 14px"> {{ soil }} </small> <br><br>
+        <u>Top Producers</u>:<small style="font-size: 14px">{{ producer }}</small>
+      </p>
+      <br><br>
+      <a href="/" class="btn btn-primary">Home</a>
+    </div>
+  </div>
+<!-- </div> -->
+
+  <br><br>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  <script  src="{{url_for('static',filename="welcome.js")}}"></script>
+
+
+
+
+</body>
+
+</html>
