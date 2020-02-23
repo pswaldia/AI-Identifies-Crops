@@ -53,7 +53,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
 def predict(image_url):
-    iam_api_key = "uX4IOM3OBuPtDZunMaIFSRKoy4PMZuu8bXnznz5mXpaI"
+    iam_api_key = ""
 
     visual_recognition = VisualRecognitionV3(
         '2018-03-19',
@@ -154,7 +154,7 @@ def index():
         # with open(os.path.join(app.config['UPLOAD_FOLDER'], filename),"rb") as file:
         url = "https://api.imgbb.com/1/upload"
         payload = {
-            "key": "e913260423136f8111fe05a3c1ce4419",
+            "key": "",
             "image": image_base64,
         }
 
