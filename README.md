@@ -5,7 +5,6 @@
 - [Introduction](#introduction)
 - [Working](#working)
 - [Installation](#installation)
-- [Running](#running)
 
 
 ## Introduction
