@@ -22,8 +22,6 @@ Note : The data used for training the model has not been open sourced yet.For da
 ---
 [(Back to top)](#list-of-contents)
 
-## Architectural Diagram
-![img](https://imgur.com/K9R2ABT.png)
 
 ## Home Page
 ![img](https://imgur.com/Gkd4fVa.png)
